@@ -43,7 +43,6 @@ app.use((req, res, next) => {
 
 // Handle Cors Policy here -- End
 
-// app.use("/auth/", AuthRoute);
 app.use("/subscribe/", SubscribeRoute);
 
 app.use("/publish/", PublishRoute);

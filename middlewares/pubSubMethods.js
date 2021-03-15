@@ -1,3 +1,4 @@
+// Helper Class of methods for the subscribe  and publish end points
 const PubSub = require('pubsub-js');
 
 const validator = require('validator');
@@ -18,6 +19,7 @@ class PubSubHelper { // helper method to subscribe
 
     }
 
+    // helper method to publish
     static sendPublish(topic, data) {
 
         var hasPublished = PubSub.publish(topic, data);
