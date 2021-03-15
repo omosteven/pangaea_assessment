@@ -1,15 +1,16 @@
 {
-  "name": "pangae_next_stage",
-  "version": "1.0.0",
-  "description": "This task was achieved by Steven Omole-Adebomi, a potential fulfilment software engineer at Pangae.holdings",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Steven Omole-Adebomi",
-  "license": "ISC",
-  "dependencies": {
-    "pubsub-js": "^1.9.3",
-    "validator": "^13.5.2"
-  }
+    "name": "pangae_next_stage",
+    "version": "1.0.0",
+    "description": "This task was achieved by Steven Omole-Adebomi, a potential fulfilment software engineer at Pangaea.holdings",
+    "main": "index.js",
+    "scripts": {
+        "test": "npm run test",
+        "start": "node index.js"
+    },
+    "author": "Steven Omole-Adebomi",
+    "license": "ISC",
+    "dependencies": {
+        "pubsub-js": "^1.9.3",
+        "validator": "^13.5.2"
+    }
 }
